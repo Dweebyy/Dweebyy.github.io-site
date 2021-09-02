@@ -1,28 +1,50 @@
-:root {
- --border-cock: green;
-}
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
 
 #body {
     background-image: url("images/bg1.jpg");
     background-repeat: no-repeat;
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li, a, button {
+    font-family: "Rubik", monospace;
+    font-size: 18px;
+    font-weight: 500;
+    color: #1b2831;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:   #2e668c;
+}
+
 #logo {
-    width: 100px;
-    height: 100px;
-    float: left;
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
 }
 
 .nav1 {
     list-style: none;
+    padding: 15px 15px 5px 15px;
 }
-.nav1 li{ 
 
+.nav1 li { 
     display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
 }
-
 .nav1 li a {
-    transition: 0.2ms ease 0s;
+    transition: 150ms ease 0.1s;
 
 }
 
@@ -31,3 +53,29 @@
 
 }
 
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 139, 169, 1);
+    transition: 0.2ms ease 0s;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: rgba(0, 139, 169, .7);
+}
+
+#oil-image1, #oil-image3, #oil-image2 {
+    display: flex;
+    width: 35%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    text-align: center;
+    margin: 9px;
+}
