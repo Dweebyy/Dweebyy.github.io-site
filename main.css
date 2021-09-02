@@ -2,8 +2,8 @@
  --border-cock: green;
 }
 
-body {
-    background-image: url(images/bg1.jpg);
+#body {
+    background-image: url("images/bg1.jpg");
     background-repeat: no-repeat;
 }
 
@@ -30,3 +30,4 @@ body {
     color: aqua;
 
 }
+
