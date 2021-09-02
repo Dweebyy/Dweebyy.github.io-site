@@ -5,3 +5,7 @@
 body {
     background-image: url("images/bg1.jpg");
 }
+
+.logo {
+    width: 100px;
+}
